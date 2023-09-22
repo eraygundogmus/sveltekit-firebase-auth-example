@@ -1,6 +1,6 @@
 # Init firebase
 
-You need to install Firebase CLI[https://firebase.google.com/docs/cli#install_the_firebase_cli] to use Firebase Emulators.
+You need to install Firebase [CLI](https://firebase.google.com/docs/cli#install_the_firebase_cli) to use Firebase Emulators.
 After installing Firebase CLI, you need to login to your Google account.
 
 ```bash

@@ -32,9 +32,9 @@ VITE_FIREBASE_USE_EMULATOR=true # true in development, false in production
 VITE_FIREBASE_AUTH_DOMAIN=AUTH_DOMAIN_HERE
 ```
 
-## Run the Emulator
+## Run the Emulator
 
-````bash
+```bash
 npm run firebase
 ```
 
@@ -42,7 +42,7 @@ or
 
 ```bash
 firebase emulators:start
-````
+```
 
 # Run the project
 

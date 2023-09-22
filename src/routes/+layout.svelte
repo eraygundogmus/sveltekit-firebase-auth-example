@@ -50,18 +50,16 @@
 {#if loading}
 	<div>Loading...</div>
 {:else}
-	{#key data.url}
-		<div>
-			Logged in: {loggedIn}
+	<div>
+		Logged in: {loggedIn}
 
-			<div>
-				{#if loggedIn}
-					<button on:click={logout}>Logout</button>
-				{:else}
-					<a href="/login"> Login</a>
-				{/if}
-			</div>
-			<slot />
+		<div>
+			{#if loggedIn}
+				<button on:click={logout}>Logout</button>
+			{:else}
+				<a href="/login"> Login</a>
+			{/if}
 		</div>
-	{/key}
+		<slot />
+	</div>
 {/if}
